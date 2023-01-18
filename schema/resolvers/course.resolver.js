@@ -46,7 +46,7 @@ const addCourse = {
             name: args.name,
             description: args.description,
             status: args.status,
-            teacherId: args.clientId,
+            teacherId: args.teacherId,
         });
 
         return course.save();
